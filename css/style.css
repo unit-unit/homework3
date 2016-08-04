@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.main_container{
+  background-color: #f9f9f9;
+}
+.main_block{
+  background-color: #ffffff;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  position: relative;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 52px;
+}
+.menu{
+  padding-top: 40px;
+  position: relative;
+}
+.horizontal-style{
+  clear: both;
+  background-color: #666666;
+  height: 40px;
+  position: relative;
+  margin-left: 47px;
+  margin-right: 47px;
+}
+.horizontal-style li{
+  display: table-cell;   
+}
+.horizontal-style a{
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-family: Myriad Pro;
+  font-style: Regular;
+  font-size: 14px;
+  color: #ffffff;
+  height: 40px;
+  width: 100px;
+  line-height: 3;
+}
+.li-color:hover a{
+  height: 40px;
+  background: #333333;
+  border-left: 1px solid #999999;
+  border-right: 1px solid #999999;
+}
+.sidebar{
+  position: relative;
+  padding: 47px;
+}
+.vertical-style{
+  clear: both;
+  background-color: #ffffff;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+.vertical-style li{
+  list-style: none;
+}
+.vertical-style a{
+  display: block;
+  border: 1px solid #cccccc;
+  height: 40px;
+  width: 240px;
+  text-decoration: none;
+  color: #666666;
+  text-align: left;
+  line-height: 3;
+  font-family: Myriad Pro;
+  font-style: Regular;
+  font-size: 13px;
+  text-indent: 25px;
+}
+.li-sidebar: a{
+  background-color: #ffffff;
+}
+.li-sidebar:hover a{
+  color: #333333;
+  text-indent: 35px;
+}
+.content{
+  width: 678px;
+  margin-left: 47px;
+  display: inline-block;
+}
+.sometext{
+  font-family: Myriad Pro;
+  font-style: Regular;
+  font-size: 13px;
+  padding-top: 40px;
+  padding-left: 25px;
+  line-height: 22px;
+}
+.footer{
+  position: relative;
+  padding-top: 85px;
+}
+.footer-style{
+  clear: both;
+  background-color: #cccccc;
+  height: 40px;
+  position: relative;
+}
+.footer-style li{
+  display: table-cell;
+  list-style: none;
+}
+.footer-style a{
+  display: block;
+  height: 40px;
+  width: 100px;
+  text-decoration: none;
+  color: #333333;
+  line-height: 3;
+  font-family: Myriad Pro;
+  font-style: Regular;
+  font-size: 13px;
+  text-align: center;
+}
+.footer-color:hover a{
+  height: 40px;
+  text-decoration: underline;
+  }
+.footer-color p{
+  font-family: Myriad Pro;
+  font-style: Regular;
+  font-size: 13px;
+  color: #333333;
+}
+.copyright{
+  position: relative;
+  left: 415px;
+}
